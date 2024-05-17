@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: rgb(238, 236, 236);
+}
+
+.centering {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column; /* Optional, if you want content stacked vertically */
+  justify-content: center;
+  align-items: center; /* Optional, if you want content centered within the container */
+  height: fit-content; /* Adjust height as needed */
+  width: 400px; /* Adjust width as needed */
+  background-color: #a5dd9b;
+  margin: auto;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.nameoftimer {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: #328584;
+}
+
+.timer {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: inherit;
+  font-weight: 300;
+  font-style: normal;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+}
+
+button {
+  border: none;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #ace2e1;
+}
+
+a {
+  text-align: center;
+}
+
+@media (max-width: 391px) {
+  .container {
+    display: flex;
+    flex-direction: column; /* Optional, if you want content stacked vertically */
+    justify-content: center;
+    align-items: center; /* Optional, if you want content centered within the container */
+    height: fit-content; /* Adjust height as needed */
+    width: 400px; /* Adjust width as needed */
+    background-color: #a5dd9b;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 12px;
+  }
+}
